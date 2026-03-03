@@ -1,0 +1,45 @@
+# ─── Environment ──────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+
+# ─── Node.js ──────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# ─── Flutter ──────────────────────────────────────────────────────────────────
+flutter/.dart_tool/
+flutter/.packages
+flutter/build/
+flutter/.flutter-plugins
+flutter/.flutter-plugins-dependencies
+flutter/ios/Pods/
+flutter/android/.gradle/
+flutter/android/app/build/
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── SSL Certificates ────────────────────────────────────────────────────────
+infrastructure/nginx/ssl/*.pem
+infrastructure/nginx/ssl/*.key
+
+# ─── Backups ──────────────────────────────────────────────────────────────────
+backups/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Coverage ─────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
